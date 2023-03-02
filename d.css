@@ -1,0 +1,78 @@
+.mylogo{
+    /* width: 250px;
+    height: 250px;
+    border: 5px solid red;
+    border-radius: 50%;
+    overflow: hidden; */
+   /* position: absolute; */
+   /* left: 50%;
+   top: 30%; */
+   /* transform: translate( -50%, -50% ); */
+   /* margin-top:0px; */
+  
+    
+}
+.mylogo img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid  rgb(201, 9, 89);
+
+}
+.logo{
+    text-align: center;
+
+}
+.text h1{
+    color: rgb(12, 4, 61);
+}
+.text h2{
+    color: rgb(12, 4, 61);
+}
+#cardelements{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    z-index: 1;
+}
+#cardelements .card{
+    background-color: rgb(18, 85, 63);
+    border: 3px solid rgb(4, 62, 85);
+    padding: 10px 5px;
+    margin: 20px 2px;
+   width: 300px;
+   height: 300px;
+   /* overflow: hidden; */
+   text-align: center;
+   border-radius: 10px;
+   backdrop-filter: blur(10px);
+}
+#cardelements .card:hover{
+    box-shadow: 20px 10px 30px rgba(7, 0, 0, 0.3);
+    background-color: rgb(8, 54, 54);
+    transition: 0.5s ease-in;
+}
+#cardelements .card p{
+    padding: 20px;
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 15px;
+    font-family: cursive;
+}
+#cardelements .card a{
+    background-color: rgb(201, 9, 89);
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    
+}
+#cardelements .card span{
+    font-size: larger;
+    color: antiquewhite;
+    padding: 10px;
+
+}
