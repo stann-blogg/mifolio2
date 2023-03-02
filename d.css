@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(219, 210, 170);
+    /* background: linear-gradient(to bottom,  rgb(61, 61, 223), rgb(255, 255, 255) ); */
+}
 .mylogo{
     /* width: 250px;
     height: 250px;
@@ -17,7 +21,7 @@
     height: 250px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid  rgb(201, 9, 89);
+    border: 5px solid  rgb(243, 237, 239);
 
 }
 .logo{
@@ -25,12 +29,13 @@
 
 }
 .text h1{
-    color: rgb(12, 4, 61);
+    color: rgb(14, 9, 46);
 }
 .text h2{
-    color: rgb(12, 4, 61);
+    color: rgb(11, 5, 41);
 }
 #cardelements{
+    /* background-image: url("C:\Users\stanl\Desktop\stann\MI FOLIO\images\dd.jpg"); */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -39,9 +44,10 @@
     z-index: 1;
 }
 #cardelements .card{
-    background-color: rgb(18, 85, 63);
-    border: 3px solid rgb(4, 62, 85);
+    /* background-color: rgb(18, 85, 63); */
+    border: 3px solid rgb(219, 210, 170);
     padding: 10px 5px;
+    background-color:  rgb(227, 229, 236);
     margin: 20px 2px;
    width: 300px;
    height: 300px;
@@ -52,27 +58,72 @@
 }
 #cardelements .card:hover{
     box-shadow: 20px 10px 30px rgba(7, 0, 0, 0.3);
-    background-color: rgb(8, 54, 54);
+    background-color: rgb(186, 197, 90);
     transition: 0.5s ease-in;
 }
 #cardelements .card p{
     padding: 20px;
+    color: rgb(5, 16, 26);
     text-align: center;
     word-spacing: 2px;
     font-size: 15px;
     font-family: cursive;
 }
-#cardelements .card a{
-    background-color: rgb(201, 9, 89);
+#cardelements .card h4{
+    color: rgb(6, 6, 32);
     padding: 5px;
-    border-radius: 5px;
+    font-size: larger;
+
+}
+
+#cardelements .card a{
+    border: 2px solid rgb(9, 9, 39);
+    color: rgb(3, 4, 36);
+    padding: 5px;
+    border-radius: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     
 }
-#cardelements .card span{
-    font-size: larger;
-    color: antiquewhite;
+.solutions img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.solutions{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    z-index: 1;
+    
+}
+.solutions .projects{
+    border: 3px solid rgb(219, 210, 170);
+    padding: 10px 5px;
+    /* background-color:  rgb(227, 229, 236); */
+    margin: 20px 2px;
+   width: 300px;
+   height: 300px;
+   /* overflow: hidden; */
+   text-align: center;
+   border-radius: 10px;
+   backdrop-filter: blur(10px);
+   /* border: 1px solid rgb(14, 14, 26); */
+   box-shadow: 20px 10px 30px rgba(7, 3, 3, 0.966);
+}
+.solutions .projects h5{
+    font-size: 30px;
+}
+.solutions .projects p{
+    font-size: 25px;
+}
+.solutions .projects a{
+    text-decoration: none;
+    color: rgb(7, 7, 29);
+    border: 1px solid rgb(17, 12, 5);
+    border-radius: 10px;
     padding: 10px;
-
 }
